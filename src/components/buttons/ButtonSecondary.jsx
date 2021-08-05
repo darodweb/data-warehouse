@@ -1,9 +1,9 @@
-import './BtnSecondary.scss';
+import './ButtonSecondary.scss';
 import { Link } from 'react-router-dom';
 
 
 
-const BtnSecondary = ({ text, target, action }) => {
+const ButtonSecondary = ({ text, target, action }) => {
 
     return (
 
@@ -14,4 +14,4 @@ const BtnSecondary = ({ text, target, action }) => {
     );
 }
 
-export default BtnSecondary;
+export default ButtonSecondary;

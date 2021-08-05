@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import './Header.scss';
-import BtnSecondary from '../BtnSecondary/BtnSecondary';
-
 
 
 const Header = () => {
@@ -12,7 +10,7 @@ const Header = () => {
 
         <>
 
-            <nav className="navbar navbar-expand-lg bg-primary">
+            <nav className="navbar navbar-expand-lg ">
                 <div className="container-fluid ">
                     <div className="navbar-brand fw-bold text-light"><Link to="/">LOGO</Link></div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,5 +32,7 @@ const Header = () => {
 
     );
 }
+
+
 
 export default Header;

@@ -1,5 +1,6 @@
 import Header from "../components/header/Header";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Login from '../pages/login/login'
 
 function App() {
 
@@ -10,8 +11,12 @@ function App() {
         <Header />
 
         <Switch>
+          <Route exact path="/login">
+            <Login />
+          </Route>
 
-          <h1 className="text-center">Data Warehouse</h1>
+
+
         </Switch>
 
       </BrowserRouter>

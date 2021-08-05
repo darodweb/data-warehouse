@@ -40,7 +40,7 @@ const Login = () => {
         setError(false);
 
 
-        //FAVOR VERIFICAR ESTA LOGICA
+        //FAVOR VERIFICAR ESTA LOGICA (linea 45 a 64)
         //LOG IN USER
         (async function logUser() {
 

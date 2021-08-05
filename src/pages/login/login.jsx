@@ -40,6 +40,7 @@ const Login = () => {
         setError(false);
 
 
+        //FAVOR VERIFICAR ESTA LOGICA
         //LOG IN USER
         (async function logUser() {
 
@@ -68,8 +69,6 @@ const Login = () => {
 
 
 
-
-
     return (
 
         <>
@@ -90,7 +89,7 @@ const Login = () => {
 
                     <div className="d-flex ">
                         <button className="btn btn-primary mt-4 ms-2" >Ingresar</button>
-                        <button className="btn btn-secondary mt-4 ms-2"><Link to="/crear-usuario">Registrarse</Link></button>
+                        {/* <button className="btn btn-secondary mt-4 ms-2"><Link to="/crear-usuario">Registrarse</Link></button> */}
                     </div>
                 </div>
             </form>
